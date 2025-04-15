@@ -17,7 +17,7 @@ export default function Hero() {
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className="text-3xl sm:text-5xl font-bold text-yellow-700 dark:text-yellow-400"
+        className="text-3xl sm:text-5xl marathi-heading  font-bold text-yellow-700 dark:text-yellow-400"
       >
         💛 Mahanama & Ankita 💙
       </motion.h1>
@@ -25,15 +25,16 @@ export default function Hero() {
       <p className="text-base sm:text-lg font-medium">
         With blessings from our beloved families,
         <br /><br />
-        <span className="font-semibold">॰॰ वाघमारे ॰॰</span>
+        <span className="font-semibold marathi-heading text-4xl sm:text-5xl text-yellow-800 dark:text-yellow-300">
+  Waghmare & Lagade
+</span>
 
-        <br />
-        <span className="font-semibold"> ॰॰ लगाडे ॰॰</span>
+
       </p>
 
       <p className="text-lg font-semibold mt-2">
-        Wedding Date:{" "}
-        <span className="text-pink-600 dark:text-pink-400">11th May 2025</span>
+      we joyfully invite you to celebrate our union{" "}
+        <span className="text-pink-600 dark:text-pink-400"> on 11th May 2025</span>
       </p>
 
       <audio controls autoPlay loop className="mx-auto w-full max-w-sm">
