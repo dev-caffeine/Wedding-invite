@@ -22,14 +22,14 @@ export default function Hero() {
         💛 Mahanama & Ankita 💙
       </motion.h1>
        
-      <h3 className="text-base sm:text-lg font-medium">
+      <p className="text-base sm:text-lg font-medium">
         With blessings from our beloved families,
         <br /><br />
-        <span className="font-semibold"> ॰॰ वाघमारे ॰॰</span>
+        <span className="font-semibold">॰॰ वाघमारे ॰॰</span>
 
         <br />
-        <span className="font-semibold">॰॰ लगाडे ॰॰</span>
-      </h3>
+        <span className="font-semibold"> ॰॰ लगाडे ॰॰</span>
+      </p>
 
       <p className="text-lg font-semibold mt-2">
         Wedding Date:{" "}
