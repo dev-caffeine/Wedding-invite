@@ -23,8 +23,9 @@ export default function Hero() {
 
       <p className="text-base sm:text-lg font-medium">
         With blessings from our beloved families,
-        <br />
-        <span className="font-semibold">सौ शीतल/रोहन पंढरीनाथ वाघमारे</span> & Family
+        <br /><br />
+        <span className="font-semibold"> सौ. शितल रोहन वाघमारे & आयू. रोहन पंढरीनाथ वाघमारे </span>
+        <span className="font-semibold"> सौ. स्वाती, विमल अंकुश लगाडे & आयू. अंकुश भिकू लगाडे </span>
       </p>
 
       <img
