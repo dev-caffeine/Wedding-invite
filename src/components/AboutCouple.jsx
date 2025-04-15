@@ -56,23 +56,23 @@ export default function AboutCouple() {
       marginBottom: "0.5rem",
     },
     ranaImage: {
-      border: "0.25rem solid #fbb6ce",
+      border: "0.25rem solid #90cdf4",
     },
     ankitaImage: {
-      border: "0.25rem solid #90cdf4",
+      border: "0.25rem solid #fbb6ce",
     },
     profileName: {
       fontSize: "1.125rem",
       fontWeight: 600,
     },
     ranaName: {
-      color: "#c05621",
+      color: "#90cdf4",
     },
     darkRanaName: {
       color: "#f6ad55",
     },
     ankitaName: {
-      color: "#4299e1",
+      color: "#fbb6ce",
     },
     darkAnkitaName: {
       color: "#90cdf4",
