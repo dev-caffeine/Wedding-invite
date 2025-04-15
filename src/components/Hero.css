@@ -1,0 +1,32 @@
+/* src/components/Hero.css */
+
+.hero-section {
+  min-width: 415px;
+  background-image: url('../assets/bodhi-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Soft glowing diya hover effect for RSVP button */
+.diya-hover {
+  transition: box-shadow 0.3s ease;
+}
+
+.diya-hover:hover {
+  box-shadow: 0 0 15px 5px rgba(255, 215, 0, 0.8);
+}
+
+/* Optional: overlay for dark mode */
+@media (prefers-color-scheme: dark) {
+  .hero-section {
+    background-blend-mode: multiply;
+    background-color: rgb(255, 253, 253);
+  }
+}

@@ -1,0 +1,89 @@
+/* Countdown Glassmorphism and Glow */
+
+.glass-timer-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    font-family: monospace;
+  }
+  
+  .glass-timer-box {
+    width: 6rem;
+    height: 7rem;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 1rem;
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    box-shadow: 0 8px 20px rgba(255, 223, 88, 0.2);
+    color: #8a5d00;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .glass-timer-box:hover {
+    transform: scale(1.07);
+    box-shadow: 0 12px 32px rgba(255, 213, 0, 0.5);
+  }
+  
+  .glass-timer-box span {
+    display: block;
+    text-align: center;
+  }
+  
+  .glow-text {
+    font-size: 1.75rem;
+    font-weight: bold;
+    text-shadow: 0 0 8px rgba(255, 213, 0, 0.6);
+  }
+  
+  .label-text {
+    margin-top: 0.4rem;
+    font-size: 0.9rem;
+    opacity: 0.9;
+  }
+
+  .glass-timer-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  .glass-timer-box {
+    width: 6.5rem;
+    height: 6.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9999px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 215, 0, 0.5);
+    box-shadow: 0 8px 20px rgba(255, 223, 70, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .glow-text {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #FFD700;
+    text-shadow: 0 0 8px rgba(255, 215, 0, 0.8);
+  }
+  
+  .label-text {
+    font-size: 0.9rem;
+    color: #fffdd0;
+    font-weight: 500;
+    margin-top: 0.25rem;
+  }
+  
+
+  
