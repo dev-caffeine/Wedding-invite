@@ -12,6 +12,15 @@ export default function Hero() {
 
   return (
     <section className="hero-section text-center space-y-4 px-4 sm:px-6">
+      
+      <p className="text-base sm:text-lg font-medium">
+        With blessings from our beloved families,
+        <br /><br />
+        <span className="font-semibold"> सौ. शितल रोहन वाघमारे & आयू. रोहन पंढरीनाथ वाघमारे </span>
+
+        <br />
+        <span className="font-semibold"> सौ. स्वाती, विमल अंकुश लगाडे & आयू. अंकुश भिकू लगाडे </span>
+      </p>
       <motion.h1
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -21,15 +30,8 @@ export default function Hero() {
         💛 Mahanama & Ankita 💙
       </motion.h1>
 
-      <p className="text-base sm:text-lg font-medium">
-        With blessings from our beloved families,
-        <br /><br />
-        <span className="font-semibold"> सौ. शितल रोहन वाघमारे & आयू. रोहन पंढरीनाथ वाघमारे </span>
-        <span className="font-semibold"> सौ. स्वाती, विमल अंकुश लगाडे & आयू. अंकुश भिकू लगाडे </span>
-      </p>
-
       <img
-        src="./src/assets/bodhi-bg.png"
+        src="./src/assets/bodhi1-bg.png"
         alt="Couple"
         className="w-52 sm:w-64 h-52 sm:h-64 mx-auto object-cover rounded-full shadow-lg border-4 border-yellow-400"
       />
