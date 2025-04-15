@@ -44,7 +44,8 @@ export default function EventDetails() {
           onClick={() => {
             const link = document.createElement("a");
             link.href =
-              "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Mahanama%20%26%20Ankita%20Wedding&dates=20250511T053000Z/20250511T093000Z&details=Join%20us%20for%20a%20beautiful%20Buddhist%20wedding!&location=Bride's%20Home&sf=true&output=xml";
+              "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Mahanama%20%26%20Ankita%20Wedding&dates=20250511T120000Z/20250511T193000Z&details=Join%20us%20for%20a%20beautiful%20Buddhist%20wedding!&location=Bride's%20Home&sf=true&output=xml";
+              
             link.target = "_blank";
             link.click();
           }}
