@@ -39,7 +39,7 @@ export default function Hero() {
       </p>
 
       <audio controls autoPlay loop className="mx-auto w-full max-w-sm">
-        <source src="./src/assets/Instrumental.mp3" type="audio/mpeg" />
+        <source src="/Instrumental.mp3" type="audio/mpeg" />
         Your browser does not support the audio element.
       </audio>
 
