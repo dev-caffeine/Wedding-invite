@@ -80,8 +80,8 @@ export default function RSVPForm() {
             const val = Math.max(0, Number(e.target.value));
             setGuests(val);
           }}
-          type="text"
-          placeholder="Number of Guests"
+          type="number"
+          placeholder="1"
           min="1"
         />
 
