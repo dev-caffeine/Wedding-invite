@@ -4,10 +4,9 @@ import "./RSVPForm.css"; // Ensure this file exists with styles
 export default function RSVPForm() {
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
-  const [side, setSide] = useState("Groom");// Added side state to track Groom/Bride
+  const [partySide, setSide] = useState("Bride"); // Added side state to track Groom/Bride
   const [guests, setGuests] = useState("0");
   const [wishes, setWishes] = useState("");
- 
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -15,14 +14,16 @@ export default function RSVPForm() {
     // Send data to Google Apps Script
     try {
       const response = await fetch(
-        "https://script.google.com/macros/s/AKfycbzR9dLA_Ptfj7vUbjdnAV6qEuAeUyPrT9nMi1mD-mmmdgYqJlDqlpiQIwOQ0yBhU31_sw/exec",
+        "https://script.google.com/macros/s/AKfycbyBiDGqWXCVYEP74v-mGCI9MoRXJtCQJFN-7XNC6EIE6hMI65LX7plKL445-3O-hWwd/exec",
         {
           method: "POST",
           body: JSON.stringify({
-            name,
+          
             phone,
-            side, // Send the side (Groom or Bride)
+            name,
+             // Send the side (Groom or Bride)
             guests,
+            partySide,
             wishes,
           }),
         }
@@ -40,10 +41,9 @@ export default function RSVPForm() {
     // Reset form after submission
     setName("");
     setPhone("");
-    setSide("Groom"); // Reset the side to Groom after submission
+    setSide("Bride"); // Reset the side to Bride after submission
     setGuests("0");
     setWishes("");
-   
   };
 
   return (
@@ -67,7 +67,7 @@ export default function RSVPForm() {
         />
 
         <select
-          value={side}
+          value={partySide}
           onChange={(e) => setSide(e.target.value)} // Set the side value (Groom/Bride)
         >
           <option value="Groom">वर पक्ष</option>
